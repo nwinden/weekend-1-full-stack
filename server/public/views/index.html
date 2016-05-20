@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Weekend 1 Challenge!</title>
+    <link rel="stylesheet" href="../styles/stylesheet.css" >
+    <script src="../vendors/jquery.min.js"></script>
+    <script src="../scripts/clientapp.js"></script>
+  </head>
+  <body>
+    <h1>Employee Data</h1>
+    <main>
+      <form class="employee-data">
+
+          <label for="first_name">First Name</label>
+          <input type="text" id="first_name" name="first_name" />
+
+          <label for="last_name">Last Name</label>
+          <input type="text" id="last_name" name="last_name" />
+
+          <label for="id_number">ID Number</label>
+          <input type="text" id="id_number" name="id_number" />
+
+          <label for="job_title">Job Title</label>
+          <input type="text" id="job_title" name="job_title" />
+
+          <label for="salary">Salary</label>
+          <input type="number" min="1" id="salary" name="salary" />
+
+          <button type="button" class="addEmployee">Submit</button>
+
+      </form>
+
+      <section class="target-container">
+
+      </section>
+
+      <p>Monthly Cost: $<span class="monTotal">0</span></p>
+
+    </main>
+  </body>
+</html>
